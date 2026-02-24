@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Khamsone Soulipanya — Full-Stack Developer & Freelancer based in Vientiane, Laos. Specializing in web development, PHP, Laravel, Vue.js, and modern web technologies.">
+    <meta name="author" content="Khamsone Soulipanya">
+    <meta name="keywords"
+        content="Khamsone, Soulipanya, Developer, Full-Stack, Web Developer, Freelancer, Laos, Laravel, Vue.js, PHP">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Khamsone Soulipanya — Developer & Freelancer">
+    <meta property="og:description"
+        content="Full-Stack Developer specializing in modern web technologies. View my portfolio and get in touch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://khamsone8585.github.io/portfolio.github.io/">
+
+    <title>Khamsone Soulipanya — Developer & Freelancer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!--
+        WHY defer?
+        'defer' tells the browser two things:
+          1. Download this JS file NOW, in parallel with parsing the HTML (non-blocking).
+          2. Don't execute it until the full HTML document has been parsed.
+        This is better than putting <script> at the bottom of <body> because
+        the download starts earlier, while producing the exact same run order.
+    -->
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">ASPY<span>.</span></a>
+
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="nav-social">
+                    <a href="https://github.com/khamsone8585" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/khamsone.soulipangna/" aria-label="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/khamsone-soulipanya-600486203/" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting"><span class="wave">👋</span> Hello, I'm</p>
+                <h1>KHAMSONE <span class="gradient-text">SOULIPANYA</span></h1>
+                <p class="hero-subtitle">
+                    <span id="typed-text"
+                        data-words='["Full-Stack Developer", "Freelancer", "Problem Solver", "Tech IT Software Engineer"]'></span><span
+                        class="typed-cursor">|</span>
+                </p>
+                <p class="hero-desc">I craft modern web experiences with clean code and thoughtful design. Passionate
+                    about building products that make a difference.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-ring"></div>
+                    <img src="images/about.jpeg" alt="Khamsone Soulipanya" loading="eager">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">Turning Ideas Into <span class="gradient-text">Digital Reality</span></h2>
+                <p class="section-desc">A passionate developer with experience in building robust web applications and
+                    digital solutions for clients across various industries.</p>
+            </div>
+
+            <div class="about-image reveal-left">
+                <img src="images/about.jpg" alt="Khamsone Soulipanya" loading="lazy">
+            </div>
+
+            <div class="about-content reveal-right">
+                <p class="about-text">
+                    I'm a Full-Stack Developer based in Vientiane, Laos. My primary passion is building meaningful web
+                    applications and digital products. I love solving complex problems and turning ideas into clean,
+                    scalable solutions.
+                </p>
+                <p class="about-text">
+                    With experience spanning government projects, e-commerce platforms, and mobile applications, I bring
+                    a versatile skill set and a commitment to quality in everything I deliver.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="4" data-suffix="+">0</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="10" data-suffix="+">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20" data-suffix="+">0</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label"><i class="fas fa-code"></i> Tech Stack</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+                <p class="section-desc">The tools and technologies I use to bring products to life.</p>
+            </div>
+
+            <!-- Frontend -->
+            <div class="skills-category reveal">
+                <h3><i class="fas fa-palette"></i> Frontend</h3>
+                <div class="skills-grid reveal-stagger">
+                    <div class="skill-card reveal">
+                        <img src="images/skill1.png" alt="HTML5" loading="lazy">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill2.png" alt="CSS3" loading="lazy">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill3.png" alt="JavaScript" loading="lazy">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill16.png" alt="Bootstrap" loading="lazy">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill18.png" alt="jQuery" loading="lazy">
+                        <span>jQuery</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill5.png" alt="VueJs" loading="lazy">
+                        <span>VueJs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skills-category reveal">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="skills-grid reveal-stagger">
+                    <div class="skill-card reveal">
+                        <img src="images/skill20.png" alt="Python" loading="lazy">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill4.png" alt="PHP" loading="lazy">
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill6.png" alt="Laravel" loading="lazy">
+                        <span>Laravel</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill7.png" alt="TypeScript" loading="lazy">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill8.png" alt="MongoDB" loading="lazy">
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill9.png" alt="Git&GitHub" loading="lazy">
+                        <span>Git&GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skills-category reveal">
+                <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                <div class="skills-grid reveal-stagger">
+                    <div class="skill-card reveal">
+                        <img src="images/skill22.png" alt="Docker" loading="lazy">
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill21.png" alt="Linux" loading="lazy">
+                        <span>Linux</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill11.png" alt="SASS" loading="lazy">
+                        <span>SASS</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill12.png" alt="Npm&node" loading="lazy">
+                        <span>Npm&node</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill23.png" alt="Claude" loading="lazy">
+                        <span>Claude</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill14.jpg" alt="AdobeXD" loading="lazy">
+                        <span>AdobeXD</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill15.jpg" alt="Figma" loading="lazy">
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill24.png" alt="Figma" loading="lazy">
+                        <span>CloudVPS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label"><i class="fas fa-briefcase"></i> Portfolio</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-desc">A selection of projects I've worked on. Each one presented unique challenges and
+                    learning opportunities.</p>
+            </div>
+
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="gov">Government</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-category="all">
+                    <div class="project-card-image">
+                        <img src="images/Project11.jpeg" alt="Monitoring SDWAN" loading="lazy">
+                        <a href="http://119.59.103.97:3001/status/factory" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>Monitoring SDWAN</h4>
+                        <p>Monitoring SDWAN CloudVPS</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">CloudVPS</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">Uptime Kuma</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project  -->
+                <div class="project-card reveal" data-category="all">
+                    <div class="project-card-image">
+                        <img src="images/project10.png" alt="Miner" loading="lazy">
+                        <a href="#" target="_blank" class="project-link" aria-label="Visit project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>Scan_Miner_CE</h4>
+                        <p>Icute Crypto Mining </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Tinkertell</span>
+                            <span class="project-tag">Networking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-category="gov">
+                    <div class="project-card-image">
+                        <img src="images/project-1.png" alt="DIT MOIC" loading="lazy">
+                        <a href="https://www.dit.moic.gov.la/" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>DIT — Ministry of Industry</h4>
+                        <p>Official government portal for the Department of Industry and Trade.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/project-2.png" alt="AMIS" loading="lazy">
+                        <a href="https://amis.la/" target="_blank" class="project-link" aria-label="Visit project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>AMIS Platform</h4>
+                        <p>Agricultural Market Information System for Lao PDR.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal" data-category="gov">
+                    <div class="project-card-image">
+                        <img src="images/project-6.png" alt="Lao-Covaf" loading="lazy">
+                        <a href="https://lao-covaf.gov.la/index/" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>Lao-Covaf</h4>
+                        <p>Government platform for vaccination information and tracking.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal" data-category="mobile">
+                    <div class="project-card-image">
+                        <img src="images/project-ep.jpg" alt="BDB Project" loading="lazy">
+                        <a href="https://play.google.com/store/apps/details?id=com.bdb.laocovaf&hl=en_US"
+                            target="_blank" class="project-link" aria-label="Visit project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>BDB Mobile App</h4>
+                        <p>Mobile application published on Google Play Store.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">Laravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/skill19.png" alt="JAOL" loading="lazy">
+                        <a href="https://jaol.org/la/top/" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>JAOL</h4>
+                        <p>Japan Alumni of Lao PDR — community platform.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/project-3.png" alt="E-document" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h4>E-Document System</h4>
+                        <p>Electronic document management and workflow system.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/project-4.png" alt="PAL" loading="lazy">
+                        <a href="https://phanthamit.com/" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i>Go</a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>Phanthamit (PAL)</h4>
+                        <p>IT solutions and services company website.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/project-5.png" alt="Suzuki" loading="lazy">
+                        <a href="https://suzuki.com.la/" target="_blank" class="project-link"
+                            aria-label="Visit project"><i class="fas fa-external-link-alt"></i>Go</a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>Suzuki Laos</h4>
+                        <p>Official Suzuki dealership website for Laos.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">nginx</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label"><i class="fas fa-briefcase"></i> Journey</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                <p class="section-desc">My professional journey and the organizations I've collaborated with.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <span class="timeline-date">Sep 2024 - Present</span>
+                    <h4>IT Senior Manager - Crypto Mining Operations</h4>
+                    <p class="company">BITBASE SOLE., LTD</p>
+                    <p>Led crypto mining operations and optimized mining network performance, resulting in a 15%
+                        increase in system uptime and 10% reduction in operational costs. Managed network monitoring and
+                        ensured system stability.</p>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <span class="timeline-date">Dec 2022 - Aug 2023</span>
+                    <h4>IT Software & Networking Specialist</h4>
+                    <p class="company">ICUTE Crypto Mining</p>
+                    <p>Maintained and optimized mining network performance, improving system uptime and operational
+                        efficiency. Monitored crypto system performance and data visualization relevant to blockchain
+                        technologies.</p>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <span class="timeline-date">Jan 2021 - Jan 2022</span>
+                    <h4>IT FullSTACK Developer</h4>
+                    <p class="company">BANDA Digital Business</p>
+                    <p>Developed enterprise-level websites and installed IT systems for clients. Specialized in backend
+                        API development using technologies like Laravel and JavaScript-based frameworks, contributing to
+                        full-stack feature delivery.</p>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <span class="timeline-date">Sep 2019 - Jan 2021</span>
+                    <h4>Intern Backend Developer</h4>
+                    <p class="company">108Hill Office & Residence</p>
+                    <p>Built robust backend APIs and contributed to full-stack features within a mini code camp
+                        environment. Gained foundational experience in web development, working with JavaScript-related
+                        technologies and frameworks.</p>
+                </div>
+            </div>
+
+            <div class="section-header reveal" style="margin-top: 4rem;">
+                <span class="section-label">Trusted By</span>
+                <p class="section-desc" style="margin-bottom: 1.5rem;">Worked and exchanged with the best</p>
+            </div>
+            <div class="clients-grid reveal">
+                <div class="client-logo-wrapper">
+                    <img src="images/customer-logo-1.jpeg" alt="Partner 1" loading="lazy">
+                </div>
+                <div class="client-logo-wrapper">
+                    <img src="images/customer-logo-2.png" alt="Partner 2" loading="lazy">
+                </div>
+                <div class="client-logo-wrapper">
+                    <img src="images/customer-logo-3.jpg" alt="Partner 3" loading="lazy">
+                </div>
+                <div class="client-logo-wrapper">
+                    <img src="images/logo_icute.png" alt="ICUTE" loading="lazy">
+                </div>
+                <div class="client-logo-wrapper">
+                    <img src="images/logo_huaihua.jpeg" alt="Huaihua" loading="lazy">
+                </div>
+                <div class="client-logo-wrapper">
+                    <img src="images/logo_bitbase.jpeg" alt="BITBASE" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label"><i class="fas fa-envelope"></i> Get In Touch</span>
+                <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+                <p class="section-desc">Have a project in mind? Let's talk about how I can help bring your ideas to
+                    life.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3>Contact Details</h3>
+                    <p>Feel free to reach out. I'm available for freelance projects, collaborations, and full-time
+                        opportunities.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>13 Road, Saphungmeuk Village, Xaythany District, Vientiane, Laos PDR</span>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+856 20 57244977</span>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:asoulipanya@gmail.com">asoulipanya@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="https://github.com/khamsone8585" target="_blank" class="social-icon"
+                            aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/khamsone.soulipangna/" class="social-icon"
+                            aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/khamsone-soulipanya-600486203/" class="social-icon"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-card glass-card reveal-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="cname">Your Name</label>
+                            <input type="text" id="cname" name="name" placeholder="asoulipanya" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cemail">Your Email</label>
+                            <input type="email" id="cemail" name="email" placeholder="asoulipanya@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cmessage">Project Details</label>
+                            <textarea id="cmessage" name="message" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Send Message <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p>© 2026 <strong>Khamsone Soulipanya</strong>. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/khamsone8585" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/khamsone.soulipangna/" aria-label="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/khamsone-soulipanya-600486203/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back To Top -->
+    <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+
+</body>
+
+</html>
