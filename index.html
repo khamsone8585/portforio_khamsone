@@ -7,15 +7,13 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Khamsone Soulipanya — Full-Stack Developer & Freelancer based in Vientiane, Laos. Specializing in web development, PHP, Laravel, Vue.js, and modern web technologies.">
+        content="Khamsone Soulipanya — Python Backend Developer & API Integrator based in Vientiane, Laos. Specializing in Python, FastAPI, PostgreSQL, and Docker.">
     <meta name="author" content="Khamsone Soulipanya">
     <meta name="keywords"
-        content="Khamsone, Soulipanya, Developer, Full-Stack, Web Developer, Freelancer, Laos, Laravel, Vue.js, PHP">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Khamsone Soulipanya — Developer & Freelancer">
-    <meta property="og:description"
-        content="Full-Stack Developer specializing in modern web technologies. View my portfolio and get in touch.">
+        content="Khamsone, Soulipanya, Python, Backend Developer, FastAPI, PostgreSQL, Docker, API Integrator, Laos">
+    <meta property="og:title" content="Khamsone Soulipanya — Python Backend Developer">
+    <meta property="og:description" content="Python Backend Developer specializing in highly reliable REST APIs and server operations.">
+    <meta property="og:description" content="Full-Stack Developer specializing in modern web technologies. View my portfolio and get in touch.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://khamsone8585.github.io/portfolio.github.io/">
 
@@ -36,15 +34,6 @@
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png">
-
-    <!--
-        WHY defer?
-        'defer' tells the browser two things:
-          1. Download this JS file NOW, in parallel with parsing the HTML (non-blocking).
-          2. Don't execute it until the full HTML document has been parsed.
-        This is better than putting <script> at the bottom of <body> because
-        the download starts earlier, while producing the exact same run order.
-    -->
     <script src="js/scripts.js" defer></script>
 </head>
 
@@ -72,7 +61,7 @@
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-
+            
             <button class="hamburger" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -90,11 +79,12 @@
                 <h1>KHAMSONE <span class="gradient-text">SOULIPANYA</span></h1>
                 <p class="hero-subtitle">
                     <span id="typed-text"
-                        data-words='["Full-Stack Developer", "Freelancer", "Problem Solver", "Tech IT Software Engineer"]'></span><span
+                        data-words='["Python Backend Developer", "API & System Integrator", "Problem Solver"]'></span><span
                         class="typed-cursor">|</span>
                 </p>
-                <p class="hero-desc">I craft modern web experiences with clean code and thoughtful design. Passionate
-                    about building products that make a difference.</p>
+                <p class="about-text">
+                    I'm a Python Backend Developer based in Vientiane, Laos. My primary passion is building highly reliable REST APIs, automated monitoring systems, and scalable infrastructure.
+                </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
                     <a href="#contact" class="btn btn-outline">Get In Touch</a>
@@ -119,9 +109,8 @@
         <div class="container">
             <div class="section-header reveal">
                 <span class="section-label">About Me</span>
-                <h2 class="section-title">Turning Ideas Into <span class="gradient-text">Digital Reality</span></h2>
-                <p class="section-desc">A passionate developer with experience in building robust web applications and
-                    digital solutions for clients across various industries.</p>
+                <h2 class="section-title">Architecting Scalable & <span class="gradient-text">Reliable Backend Systems</span></h2>
+                <p class="section-desc">A Backend Developer with 4+ years of experience specializing in high-performance APIs, server infrastructure, and real-time data solutions.</p>
             </div>
 
             <div class="about-image reveal-left">
@@ -130,13 +119,10 @@
 
             <div class="about-content reveal-right">
                 <p class="about-text">
-                    I'm a Full-Stack Developer based in Vientiane, Laos. My primary passion is building meaningful web
-                    applications and digital products. I love solving complex problems and turning ideas into clean,
-                    scalable solutions.
+                    I'm a Python Backend Developer based in Vientiane, Laos, dedicated to building the invisible engines that power successful digital platforms. My passion is turning complex business logic into clean, scalable, and maintainable backend systems.
                 </p>
                 <p class="about-text">
-                    With experience spanning government projects, e-commerce platforms, and mobile applications, I bring
-                    a versatile skill set and a commitment to quality in everything I deliver.
+                    Over the past 4+ years, I have successfully delivered diverse projects spanning government portals, e-commerce platforms, and real-time monitoring systems. From designing relational databases to deploying containerized API architectures, my goal is to provide reliable technical foundations for every project I touch.
                 </p>
                 <div class="about-stats">
                     <div class="stat-item">
@@ -206,12 +192,20 @@
                         <span>Python</span>
                     </div>
                     <div class="skill-card reveal">
-                        <img src="images/skill4.png" alt="PHP" loading="lazy">
-                        <span>PHP</span>
+                        <img src="images/skill_fastapi.png" alt="FastAPI" loading="lazy">
+                        <span>FastAPI</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill_postgresql.webp" alt="PostgreSQL" loading="lazy">
+                        <span>PostgreSQL</span>
                     </div>
                     <div class="skill-card reveal">
                         <img src="images/skill6.png" alt="Laravel" loading="lazy">
                         <span>Laravel</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <img src="images/skill4.png" alt="PHP" loading="lazy">
+                        <span>PHP</span>
                     </div>
                     <div class="skill-card reveal">
                         <img src="images/skill7.png" alt="TypeScript" loading="lazy">
@@ -289,6 +283,23 @@
 
             <div class="projects-grid">
                 <!-- Project 1 -->
+                 <div class="project-card reveal" data-category="web">
+                    <div class="project-card-image">
+                        <img src="images/Sirishop.png" alt="POS SiriShop API" loading="lazy">
+                        <a href="#" target="_blank" class="project-link" aria-label="Visit project"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card-info">
+                        <h4>POS SiriShop (Retail Management API)</h4>
+                        <p>High-speed RESTful API backend managing daily sales, JWT authentication, and automated reporting.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="project-card reveal" data-category="all">
                     <div class="project-card-image">
                         <img src="images/Project11.jpeg" alt="Monitoring SDWAN" loading="lazy">
@@ -487,9 +498,8 @@
                     <span class="timeline-date">Sep 2024 - Mar 2026</span>
                     <h4>IT Systems & Backend Operations Lead</h4>
                     <p class="company">BITBASE SOLE., LTD</p>
-                    <p>Built real-time monitoring tools using Python to track device status across 1,000+ nodes in a
-                        high-density
-                        distributed server environment
+                    <p>Built real-time monitoring tools using Python to track device status across 20,000+ nodes in a
+                        high-density distributed server environment.
                         Designed and deployed automated alerting systems via Telegram Bot API with Docker
                         containerization
                         and 24/7 uptimes.
